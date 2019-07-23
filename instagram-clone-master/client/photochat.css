@@ -1,0 +1,33 @@
+#signup-link, #forgot-password-link {
+  color: black;
+}
+
+img {
+  max-width: 100%;
+  width: auto;
+}
+
+form {
+  margin-top: 2em;
+}
+
+.map-container {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 1em;
+}
+
+.card {
+  margin: 1em 0;
+}
+
+.card-image {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Override Bootstrap MD's setting of height to 100%, which alters the aspect ratio -
+https://github.com/FezVrasta/bootstrap-material-design/issues/768 */
+.card .card-image img {
+  height: auto;
+}
